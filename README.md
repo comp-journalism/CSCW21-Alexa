@@ -26,21 +26,34 @@ Create a config.ini file to securely store your private AWS access and secret ke
 
 1. Fetching Google's Top 20 Daily Search Trends
 
-    python google_trends.py
+    '''    
+        python google_trends.py
+    '''
 
 2. Synthesizing text queries to voice queries using Amazon Polly
 
-    python speech_synthesis.py --args
+    ''' 
+        python speech_synthesis.py --args
+    ''' 
 
 3. Issuing voice queries to the Alexa smart speaker and saving voice responses 
 
-    python app.py --args
+    ''' 
+        python app.py --args
+    ''' 
 
 4. Uploading Alexa voice responses to S3 for transcription
 
-    python s3_upload.py
+    ''' 
+        python s3_upload.py
+    ''' 
 
 5. Transcribing Alexa voice responses with Amazon Transcribe
 
-    python speech_transcription.py
+    ''' 
+        python speech_transcription.py
+    ''' 
 
+## Acknowledgments
+
+This work is supported by the National Science Foundation Grant, Award IIS-1717330. The authors would like to thank Sophie Liu, Victoria Cabales, Benjamin Scharf, and the Knight Lab Studio at Northwestern University for their support and assistance in a related pilot study.
