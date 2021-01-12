@@ -1,0 +1,11 @@
+bs4
+csv
+boto3
+logging
+argparse
+requests
+datetime
+ConfigParser
+playsound
+speech_recognition
+sqlite3
