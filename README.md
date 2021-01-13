@@ -12,7 +12,7 @@ Python 2+ required (for python build)
 
 Install required modules (boto3, sqlite3, requests, speech_recognition, etc).
 
-    pip install -r requirement.txt
+    pip install -r requirements.txt
 
 ### Amazon Web Services (AWS) Credentials
 
